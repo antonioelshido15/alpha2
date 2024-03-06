@@ -1,0 +1,54 @@
+body{
+    background: rgb(0, 0, 255);
+}
+
+#contenedor{
+    position: relative;
+}
+
+#arriba1{
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    transform: rotate(12deg);
+}
+
+#arriba2{
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    border: no;
+}
+
+canvas{
+    margin: 0 auto;
+}
+
+h3, p{
+    margin: 10px;
+    background: rgb(255, 255, 0);
+    color: red;
+    font-family: sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+p#a0{
+    color: rgb(255 0 0 /0);
+}
+
+p#a25{
+    color: rgb(255 0 0 /25%);
+}
+
+p#a50{
+    color: rgb(255 0 0 /50%);
+}
+
+p#a75{
+    color: rgb(255 0 0 /75%);
+}
+
+p#a100{
+    color: rgb(255 0 0 /100%);
+}
